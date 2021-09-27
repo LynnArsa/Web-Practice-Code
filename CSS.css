@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&display=swap');
+
+@media screen and (max-width: 992px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+.jumbotron {
+    background-color: #FFBBCC;
+    object-fit: cover;
+    text-align: center;
+    padding: 48px;
+}
+
+.drop-button {
+    background-color: #FFBBCC;
+    color: white;
+    border-color: #FFCCCC;
+    padding: 23px;
+}
+
+.drop-button:hover {
+    background-color: #FFDDCC;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 18px 19px;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #FFDDCC}
+
+.show {display:block;}
+
+nav li {
+display: inline;
+padding: 10px;
+}
+
+nav {
+    background-color: #FFBBCC;
+    padding: 7px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: large;
+}
+
+.profile header {
+    text-align: center;
+}
+
+
+aside {
+    float: right;
+    padding: 10px;
+}
+
+.title-name {
+    color: #FFCCCC;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+main {
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.featured-image {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    box-shadow: -2px 3px 7px 0 rgba(0, 0, 0, 30%);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #FFBBCC;
+    text-align: center;
+    padding: 35px;
+    color: white;
+}
